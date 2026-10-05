@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>VelocityStudio</AssemblyName>
+    <DefaultItemExcludes>$(DefaultItemExcludes);App/**;UserData/**</DefaultItemExcludes>
+  </PropertyGroup>
+  <ItemGroup><Resource Include="Assets/Fonts/*.ttf;Assets/Images/*.png;Assets/Icons/*.svg" /></ItemGroup>
+</Project>
